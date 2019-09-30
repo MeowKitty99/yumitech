@@ -4,7 +4,7 @@ if( $_SERVER["REQUEST_METHOD"] == "POST" ){
 		
 	// Set the recipient email address.
 	// FIXME: Update this to your desired email address.
-	$recipient = "yourmail@gmail.com";
+	$recipient = "hello@yumitech.co.nz";
 	
 	// Get the form fields and remove whitespace.
 	$name 	= strip_tags(trim($_POST["name"]));
